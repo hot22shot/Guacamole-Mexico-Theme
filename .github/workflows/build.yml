@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-and-release:
+  zip-and-upload:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,21 +20,8 @@ jobs:
         run: |
           mv guacamole-mexico-theme.zip guacamole-mexico-theme.jar
 
-      - name: Create Release
-        id: create_release
-        uses: elgohr/Github-Release-Action@v5
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
         with:
-          title: Release ${{ github.ref_name }}
-          tag: ${{ github.ref_name }}
-
-      - name: Upload JAR as Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./guacamole-mexico-theme.jar
-          asset_name: guacamole-mexico-theme.jar
-          asset_content_type: application/java-archive
+          name: repository-jar
+          path: ./guacamole-mexico-theme.jar
