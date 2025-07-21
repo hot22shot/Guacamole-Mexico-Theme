@@ -1,0 +1,1 @@
+# guacamole-mexico-theme
