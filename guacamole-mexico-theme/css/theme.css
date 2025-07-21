@@ -13,6 +13,7 @@ Guacamole Mexico Theme Color
 #FA7461 : Pamplemousse
 */
 
+/* Remplacement du logo */
 .login-ui .login-dialog .logo {
   background-image: url('app/ext/mexico-theme/images/logo.png');
   height: 4em;
@@ -25,4 +26,22 @@ div.login-ui {
 }
 .login-ui .login-dialog {
   background-color: white;
+}
+
+/* Modification de l'affichage de la version */
+.login-ui .login-dialog .version .version-number {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: .25em .75em;
+    margin: .25em;
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -khtml-border-radius: .5em;
+    border-radius: .5em;
+    color: #FFE376;
+    background: #81982D;
+    font-size: .5em;
+    font-style: italic;
+    opacity: 1;
 }
