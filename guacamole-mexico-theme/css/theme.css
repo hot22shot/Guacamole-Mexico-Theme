@@ -14,10 +14,14 @@ Guacamole Mexico Theme Color
 */
 
 .login-ui .login-dialog .logo {
-  content: url('app/ext/tempnamespace/images/logo.svg');
+  content: '';
   display: block;
-  height: 1.5em;
-  width: 1.5em;
+  height: 2em;
+  width: 2em;
+  background-image: url('./images/logo.svg');
+  background-position: initial;
+  background-size: initial;
+  background-repeat: initial;
 }
 div.login-ui {
   background: #666;
