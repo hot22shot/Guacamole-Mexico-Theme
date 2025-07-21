@@ -14,7 +14,8 @@ jobs:
 
       - name: Create ZIP archive of the repository
         run: |
-          zip -r guacamole-mexico-theme.zip guacamole-mexico-theme/ -x '*.git*' '*.github/*' 'node_modules/*' 'tests/*'
+          cd guacamole-mexico-theme/
+          zip -r guacamole-mexico-theme.zip -x '*.git*' '*.github/*' 'node_modules/*' 'tests/*'
 
       - name: Rename ZIP to JAR
         run: |
