@@ -23,11 +23,11 @@ Guacamole Mexico Theme Color
   -webkit-background-size: 4em 4em;
 }
 div.login-ui {
-  background: #666;
-  background-color: #666;
+  background: #ffffff;
+  background-color: #ffffff;
 }
 .login-ui .login-dialog {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 /* Modification de l'affichage de la version */
