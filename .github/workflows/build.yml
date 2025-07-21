@@ -19,7 +19,7 @@ jobs:
 
       - name: Rename ZIP to JAR
         run: |
-          mv guacamole-mexico-theme.zip guacamole-mexico-theme-${{ vars.GUACAMOLEVERSION }}.jar
+          mv guacamole-mexico-theme/guacamole-mexico-theme.zip guacamole-mexico-theme-${{ vars.GUACAMOLEVERSION }}.jar
 
       - name: Configure Git
         run: |
