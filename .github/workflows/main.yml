@@ -9,5 +9,5 @@ jobs:
       uses: thedoctor0/zip-release@0.7.5
       with:
         type: 'zip'
-        filename: 'guacamole-mexico-theme.jar'
+        filename: 'guacamole-mexico-theme.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
