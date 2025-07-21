@@ -18,7 +18,7 @@ Guacamole Mexico Theme Color
   display: block;
   height: 2em;
   width: 2em;
-  background-image: url('./images/logo.svg');
+  background-image: url('app/ext/mexico-theme/images/logo.svg');
   background-position: initial;
   background-size: initial;
   background-repeat: initial;
