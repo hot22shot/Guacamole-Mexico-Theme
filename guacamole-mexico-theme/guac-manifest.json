@@ -8,6 +8,6 @@
 	 "css" : [ "css/theme.css" ],
 
 	 "resources" : {
-                "images/logo.svg" : "image/svg"
+                "images/logo.png" : "image/png"
          }
 }
