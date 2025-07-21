@@ -21,7 +21,7 @@ jobs:
           mv guacamole-mexico-theme.zip guacamole-mexico-theme.jar
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: repository-jar
           path: ./guacamole-mexico-theme.jar
