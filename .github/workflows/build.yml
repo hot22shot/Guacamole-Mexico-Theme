@@ -14,7 +14,7 @@ jobs:
 
       - name: Create ZIP archive of the repository
         run: |
-          zip -r guacamole-mexico-theme.zip . -x '*.git*' '*.github/*' 'node_modules/*' 'tests/*'
+          zip -r guacamole-mexico-theme.zip guacamole-mexico-theme/ -x '*.git*' '*.github/*' 'node_modules/*' 'tests/*'
 
       - name: Rename ZIP to JAR
         run: |
@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit the jar file
         run: |
-          git commit -m "Add guacamole-mexico-theme.jar file of the repository"
+          git commit -m "Update of guacamole-mexico-theme.jar"
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
