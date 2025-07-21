@@ -1,3 +1,18 @@
+/*
+Guacamole Mexico Theme Color
+#FDA409 : Orange
+#F8513A : Orange sanguine
+#FFF3AD : Jaune clair
+#FFFFFF : Blanc
+#FFD23E : Jaune foncé
+#FFE376 : Jaune
+#FA690E : Orange-Pamplemousse
+#FC870B : Orange foncé
+#81982D : Vert foncé
+#A0AD2F : Vert
+#FA7461 : Pamplemousse
+*/
+
 .login-ui .login-dialog .logo {
   background-image: url('app/ext/tempnamespace/images/logo.png');
 	width: 256px;
