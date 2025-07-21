@@ -3,7 +3,7 @@
         "guacamoleVersion" : "*",
 
         "name" : "Guacamole Mexico Theme",
-        "namespace" : "guacamole-mexico-theme",
+        "namespace" : "mexico-theme",
 
 	 "css" : [ "css/theme.css" ],
 
