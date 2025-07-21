@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  zip-and-upload:
+  zip-and-commit:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,8 +20,20 @@ jobs:
         run: |
           mv guacamole-mexico-theme.zip guacamole-mexico-theme.jar
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Add the jar file
+        run: |
+          git add guacamole-mexico-theme.jar
+
+      - name: Commit the jar file
+        run: |
+          git commit -m "Add guacamole-mexico-theme.jar file of the repository"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          name: repository-jar
-          path: ./guacamole-mexico-theme.jar
+          github_token: ${{ secrets.GITHUB_TOKEN }}
