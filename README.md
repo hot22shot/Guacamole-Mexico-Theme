@@ -1,11 +1,9 @@
 # Guacamole Mexico Theme
-for Apache Guacamole 1.6.0 packaged by jwetzell (https://github.com/jwetzell/docker-guacamole)
+A simple theme for Apache Guacamole 1.6.0 packaged by jwetzell (https://github.com/jwetzell/docker-guacamole)
 
-Icon : https://www.svgrepo.com/svg/295473/guacamole-mexico
+Icon is from : https://www.svgrepo.com/svg/295473/guacamole-mexico
 
 ## Usage
-Download JAR in the extensions-available directory
-
-Add mexico-theme as an extension
-
-Restart Guacamole
+* Download the JAR file and put it in the "extensions-available" directory of guacamole
+* Add mexico-theme as an extension in guacamole configuration
+* Restart Guacamole
