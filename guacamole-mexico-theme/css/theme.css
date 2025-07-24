@@ -19,9 +19,9 @@
 /* Remplacement du logo */
 .login-ui .login-dialog .logo {
   background-image: url('app/ext/mexico-theme/images/logo.png');
-  height: 4em;
-  width: 4em;
-  /*-webkit-background-size: 4em 4em;*/
+  height: 5em;
+  width: 5em;
+  -webkit-background-size: 5em 5em;
 }
 div.login-ui {
   background: #ffffff;
