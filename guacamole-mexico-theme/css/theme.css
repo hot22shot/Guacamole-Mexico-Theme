@@ -16,7 +16,9 @@
  * 
  */
 
-/* Remplacement du logo */
+/* 
+ * Remplacement du logo 
+ */
 .login-ui .login-dialog .logo {
   height: 5em;
   width: 5em;
@@ -36,7 +38,9 @@ div.login-ui {
   background-color: #ffffff;
 }
 
-/* Modification de l'affichage de la version */
+/* 
+ * Modification de l'affichage de la version 
+ */
 .login-ui .login-dialog .version .version-number {
     position: absolute;
     right: 0;
@@ -52,4 +56,11 @@ div.login-ui {
     font-size: .5em;
     font-style: italic;
     opacity: 1;
+}
+
+/*
+ * Modification de l'odre de préférence des polices dans l'ensemble de l'interface
+ */
+body {
+    font-family: Raleway, FreeSans, Helvetica, Arial, sans-serif;
 }
