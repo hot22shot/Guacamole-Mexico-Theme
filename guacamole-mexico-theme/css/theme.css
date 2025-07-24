@@ -1,26 +1,27 @@
 /*
-Guacamole Mexico Theme Color
-
-#fda409 : Orange
-#f8513a : Orange sanguine
-#fff3ad : Jaune clair
-#ffffff : Blanc
-#ffd23e : Jaune foncé
-#ffe376 : Jaune
-#fa690e : Orange-Pamplemousse
-#fc870b : Orange foncé
-#81982d : Vert foncé
-#a0ad2f : Vert
-#fa7461 : Pamplemousse
-
-*/
+ * Guacamole Mexico Theme Color
+ * 
+ * Theme colors
+ * #fda409 : Orange
+ * #f8513a : Orange sanguine
+ * #fff3ad : Jaune clair
+ * #ffffff : Blanc
+ * #ffd23e : Jaune foncé
+ * #ffe376 : Jaune
+ * #fa690e : Orange-Pamplemousse
+ * #fc870b : Orange foncé
+ * #81982d : Vert foncé
+ * #a0ad2f : Vert
+ * #fa7461 : Pamplemousse
+ * 
+ */
 
 /* Remplacement du logo */
 .login-ui .login-dialog .logo {
   background-image: url('app/ext/mexico-theme/images/logo.png');
   height: 4em;
   width: 4em;
-  -webkit-background-size: 4em 4em;
+  /*-webkit-background-size: 4em 4em;*/
 }
 div.login-ui {
   background: #ffffff;
