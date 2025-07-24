@@ -18,15 +18,20 @@
 
 /* Remplacement du logo */
 .login-ui .login-dialog .logo {
-  background-image: url('app/ext/mexico-theme/images/logo.png');
   height: 5em;
   width: 5em;
+  background-size: 5em 5em;
+  -moz-background-size:    5em 5em;
   -webkit-background-size: 5em 5em;
+  -khtml-background-size:  5em 5em;
+  background-image: url('app/ext/mexico-theme/images/logo.png');
 }
+
 div.login-ui {
   background: #ffffff;
   background-color: #ffffff;
 }
+
 .login-ui .login-dialog {
   background-color: #ffffff;
 }
